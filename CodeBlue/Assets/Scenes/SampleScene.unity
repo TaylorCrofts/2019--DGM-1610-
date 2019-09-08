@@ -199,25 +199,13 @@ GameObject:
   - component: {fileID: 1343816487}
   - component: {fileID: 1343816486}
   - component: {fileID: 1343816485}
-  - component: {fileID: 1343816484}
   m_Layer: 0
-  m_Name: Grim
-  m_TagString: Untagged
+  m_Name: Grimm
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!114 &1343816484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1343816483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926b9b053c1810f4f8e290b18f5aaeab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!199 &1343816485
 ParticleSystemRenderer:
   serializedVersion: 5
@@ -4866,7 +4854,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1343816483}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.31, y: 0.19, z: 0}
+  m_LocalPosition: {x: -2.21, y: 0.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

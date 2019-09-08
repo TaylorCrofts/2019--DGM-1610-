@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor.VersionControl;
+using UnityEngine;
 
 public class GhostScript : MonoBehaviour
 {
@@ -6,5 +7,6 @@ public class GhostScript : MonoBehaviour
 	void Start()
 	{
 		grimm.name = "Reaper";
+		print("Hello?");
 	}
 }
