@@ -59,8 +59,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Floatdata.cs" />
     <Compile Include="Assets\ghostscript.cs" />
     <Compile Include="Assets\NewGhostScript.cs" />
+    <Compile Include="Assets\triggerEvents.cs" />
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/10873957/Documents/GitKraken Repo/2019_DGM-1610-/CodeBlue/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>

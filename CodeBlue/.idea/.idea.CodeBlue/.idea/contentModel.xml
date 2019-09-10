@@ -6,8 +6,10 @@
     <e p="C:\Users\10873957\Documents\GitKraken Repo\2019_DGM-1610-\CodeBlue" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Floatdata.cs" t="Include" />
         <e p="ghostscript.cs" t="Include" />
         <e p="NewGhostScript.cs" t="Include" />
+        <e p="triggerEvents.cs" t="Include" />
       </e>
       <e p="CodeBlue.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
