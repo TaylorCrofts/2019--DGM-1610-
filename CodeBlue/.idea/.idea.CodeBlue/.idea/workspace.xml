@@ -29,6 +29,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0962A7E-4E65-4650-BBC1-04838AA9616A/d2/b8972647/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GhostScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ECB5D8E2-0A91-44BC-A4F2-58317D1E56F9/a5/33e3772b/Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NewGhostScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1C5B854E-4555-498B-8DC8-BC6858A97794/f9/2149f955/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -36,6 +37,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/ghostscript.cs" />
         <option value="$PROJECT_DIR$/Assets/GhostScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/NewGhostScript.cs" />
       </list>
     </option>
   </component>
@@ -99,6 +101,8 @@
       <workItem from="1567803684724" duration="1422000" />
       <workItem from="1567904675238" duration="1624000" />
       <workItem from="1567987237967" duration="5055000" />
+      <workItem from="1568080619918" duration="551000" />
+      <workItem from="1568081242330" duration="1008000" />
     </task>
     <servers />
   </component>

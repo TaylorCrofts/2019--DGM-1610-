@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\taycr\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ghostscript.cs" t="Include" />
+        <e p="NewGhostScript.cs" t="Include" />
       </e>
       <e p="CodeBlue.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

@@ -27,4 +27,8 @@ public class GhostScript : MonoBehaviour
 //			GetComponent<ChildMotion>(100).position.Equal(Invoke(float.02);
 //		}
 //		throw new NotImplementedException();
+	private void Update()
+	{
+		 
 	}
+}
