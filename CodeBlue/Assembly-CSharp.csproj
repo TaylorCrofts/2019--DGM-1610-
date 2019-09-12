@@ -59,8 +59,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CatClass.cs" />
+    <Compile Include="Assets\Scripts\CollisionEventScript.cs" />
+    <Compile Include="Assets\Scripts\DogClass.cs" />
     <Compile Include="Assets\Scripts\FloatScript.cs" />
+    <Compile Include="Assets\Scripts\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\NoteScript.cs" />
+    <Compile Include="Assets\Scripts\ParticalSystemScript.cs" />
     <Compile Include="Assets\Scripts\TriggerEvents.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/10873957/Documents/GitKraken Repo/2019_DGM-1610-/CodeBlue/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
