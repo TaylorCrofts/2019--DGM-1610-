@@ -5,7 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class NewGhostScript : MonoBehaviour
+public class NoteScript : MonoBehaviour
 {
 	public float floatValue = 5.5f;
 	public int intValue = 20;
