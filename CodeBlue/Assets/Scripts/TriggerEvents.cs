@@ -1,13 +1,13 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
-public class triggerEvents : MonoBehaviour 
+public class TriggerEvents : MonoBehaviour 
 {
 	public UnityEvent triggerEvent;
 	private void OnTriggerEnter(Collider other)
 	{
 		triggerEvent.Invoke();
+		print("Help");
 	}
 	
 }

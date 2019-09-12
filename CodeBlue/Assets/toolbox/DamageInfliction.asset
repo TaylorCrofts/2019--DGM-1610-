@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b40780615d3d3da44ab9edd4205bc4fe, type: 3}
-  m_Name: New Floatdata
+  m_Script: {fileID: 11500000, guid: b9c1502bacba34b4d837f8ae6d0a7c94, type: 3}
+  m_Name: DamageInfliction
   m_EditorClassIdentifier: 
-  value: 1
+  value: 2
