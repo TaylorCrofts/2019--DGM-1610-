@@ -8,8 +8,8 @@
       <e p="Assets" t="Include">
         <e p="HomeScripts" t="Include">
           <e p="HealthFloatScript.cs" t="Include" />
-          <e p="PlayerParticalScript.cs" t="Include" />
-          <e p="TriggerEventScript.cs" t="Include" />
+          <e p="PlayerParticalSystemPlayerParticleSystem.cs" t="Include" />
+          <e p="triggerEvents.cs" t="Include" />
         </e>
         <e p="ScriptsFromClass" t="Include">
           <e p="CatClass.cs" t="Include" />
@@ -19,7 +19,6 @@
           <e p="MouseEvents.cs" t="Include" />
           <e p="NoteScript.cs" t="Include" />
           <e p="ParticalSystemScript.cs" t="Include" />
-          <e p="triggerEvents.cs" t="Include" />
         </e>
       </e>
       <e p="CodeBlue.sln" t="IncludeFlat" />

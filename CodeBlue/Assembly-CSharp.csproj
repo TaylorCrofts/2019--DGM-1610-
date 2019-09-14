@@ -60,8 +60,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\HomeScripts\HealthFloatScript.cs" />
-    <Compile Include="Assets\HomeScripts\PlayerParticalScript.cs" />
-    <Compile Include="Assets\HomeScripts\TriggerEventScript.cs" />
+    <Compile Include="Assets\HomeScripts\PlayerParticalSystemPlayerParticleSystem.cs" />
+    <Compile Include="Assets\HomeScripts\TriggerEvents.cs" />
     <Compile Include="Assets\ScriptsFromClass\CatClass.cs" />
     <Compile Include="Assets\ScriptsFromClass\CollisionEventScript.cs" />
     <Compile Include="Assets\ScriptsFromClass\DogClass.cs" />
@@ -69,7 +69,6 @@
     <Compile Include="Assets\ScriptsFromClass\MouseEvents.cs" />
     <Compile Include="Assets\ScriptsFromClass\NoteScript.cs" />
     <Compile Include="Assets\ScriptsFromClass\ParticalSystemScript.cs" />
-    <Compile Include="Assets\ScriptsFromClass\TriggerEvents.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/taycr/Documents/2019-(DGM-1610)/CodeBlue/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -252,6 +251,9 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>

@@ -7,7 +7,7 @@ public class TriggerEvents : MonoBehaviour
 	private void OnTriggerEnter(Collider other)
 	{
 		triggerEvent.Invoke();
-		print("Help");
+		print("Working!");
 	}
 	
 }
