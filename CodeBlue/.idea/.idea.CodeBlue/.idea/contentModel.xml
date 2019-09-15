@@ -10,6 +10,7 @@
           <e p="HealthFloatScript.cs" t="Include" />
           <e p="PlayerParticalSystemPlayerParticleSystem.cs" t="Include" />
           <e p="triggerEvents.cs" t="Include" />
+          <e p="VarsClass.cs" t="Include" />
         </e>
         <e p="ScriptsFromClass" t="Include">
           <e p="CatClass.cs" t="Include" />

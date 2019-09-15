@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
+
+public class VarsClass : MonoBehaviour
+{
+ public void LightTraits;
+
+ private void OnMouseDown()
+ {
+  LightTraits.Invoke();
+ }
+}
