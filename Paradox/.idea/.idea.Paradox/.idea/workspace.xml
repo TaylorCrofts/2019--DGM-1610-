@@ -12,6 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/NoteScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HealthFloatScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TriggerEventScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ParticleEvents.cs" root0="FORCE_HIGHLIGHTING" />
@@ -22,6 +23,7 @@
         <option value="$PROJECT_DIR$/Assets/TriggerEventScript.cs" />
         <option value="$PROJECT_DIR$/Assets/HealthFloatScript.cs" />
         <option value="$PROJECT_DIR$/Assets/ParticleEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/NoteScript.cs" />
       </list>
     </option>
   </component>
@@ -79,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1568492862333</updated>
       <workItem from="1568492868488" duration="117000" />
-      <workItem from="1568493328402" duration="6614000" />
+      <workItem from="1568493328402" duration="7095000" />
+      <workItem from="1568514906935" duration="2007000" />
     </task>
     <servers />
   </component>
