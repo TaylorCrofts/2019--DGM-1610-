@@ -22,8 +22,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/TriggerEventScript.cs" />
         <option value="$PROJECT_DIR$/Assets/HealthFloatScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/ParticleEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/NoteScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/ParticleEvents.cs" />
       </list>
     </option>
   </component>
@@ -82,7 +82,8 @@
       <updated>1568492862333</updated>
       <workItem from="1568492868488" duration="117000" />
       <workItem from="1568493328402" duration="7095000" />
-      <workItem from="1568514906935" duration="2007000" />
+      <workItem from="1568514906935" duration="2124000" />
+      <workItem from="1568599016431" duration="1467000" />
     </task>
     <servers />
   </component>
