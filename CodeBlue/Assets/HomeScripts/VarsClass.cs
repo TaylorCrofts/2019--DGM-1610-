@@ -6,10 +6,4 @@ using UnityEngine.Events;
 
 public class VarsClass : MonoBehaviour
 {
- public void LightTraits;
-
- private void OnMouseDown()
- {
-  LightTraits.Invoke();
- }
 }
