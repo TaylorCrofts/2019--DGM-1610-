@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\HealthFloatScript.cs" />
+    <Compile Include="Assets\Movement.cs" />
     <Compile Include="Assets\NoteScript.cs" />
     <Compile Include="Assets\ParticleEvents.cs" />
     <Compile Include="Assets\TriggerEventScript.cs" />
