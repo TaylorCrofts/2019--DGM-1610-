@@ -1,5 +1,4 @@
-﻿using JetBrains.Annotations;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
@@ -10,7 +9,7 @@ public class Movement : MonoBehaviour
 	public Vector3 position;
 	public CharacterController controller;
 
-	private int jumpcount = 2;
+	public int jumpcount = 2;
 	
 	void Update ()
 	{
