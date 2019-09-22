@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AppleSause.cs" />
     <Compile Include="Assets\HealthFloatScript.cs" />
     <Compile Include="Assets\Movement.cs" />
     <Compile Include="Assets\MovementControler.cs" />
