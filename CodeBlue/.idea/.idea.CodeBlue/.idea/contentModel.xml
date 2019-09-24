@@ -14,10 +14,13 @@
           <e p="VarsClass.cs" t="Include" />
         </e>
         <e p="ScriptsFromClass" t="Include">
+          <e p="ApplyForce.cs" t="Include" />
           <e p="CatClass.cs" t="Include" />
           <e p="CollisionEventScript.cs" t="Include" />
           <e p="DogClass.cs" t="Include" />
           <e p="FloatScript.cs" t="Include" />
+          <e p="GetFruit.cs" t="Include" />
+          <e p="IFstatements.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="NoteScript.cs" t="Include" />
