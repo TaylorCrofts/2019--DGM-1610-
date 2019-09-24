@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Collectable Float Data
   m_EditorClassIdentifier: Assembly-CSharp::HealthFloatData
-  value: 5
+  value: 13
