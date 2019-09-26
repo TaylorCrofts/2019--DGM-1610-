@@ -64,6 +64,7 @@
     <Compile Include="Assets\Movement.cs" />
     <Compile Include="Assets\MovementControler.cs" />
     <Compile Include="Assets\NoteScript.cs" />
+    <Compile Include="Assets\OutOfBoundsEvents.cs" />
     <Compile Include="Assets\ParticleEvents.cs" />
     <Compile Include="Assets\TriggerEventScript.cs" />
     <Reference Include="UnityEditor.StandardEvents">
