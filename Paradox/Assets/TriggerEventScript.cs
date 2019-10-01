@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-
+//unity event are things the act when called
+//invoke is calling it.
 public class TriggerEventScript : MonoBehaviour 
 {
     public UnityEvent triggerEvent;
