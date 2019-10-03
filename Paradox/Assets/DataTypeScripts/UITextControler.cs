@@ -13,9 +13,8 @@ public class UITextControler : MonoBehaviour
 	{
 		textLable.text = data.value.ToString();
 	}
-	private void Start()
-	{
+	void Awake()
+	{ 
 		textLable = GetComponent<Text>();
-		startEvent.Invoke();
 	}
 }
