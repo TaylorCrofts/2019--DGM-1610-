@@ -59,16 +59,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AppleSause.cs" />
-    <Compile Include="Assets\HealthFloatScript.cs" />
-    <Compile Include="Assets\IntData.cs" />
-    <Compile Include="Assets\Movement.cs" />
-    <Compile Include="Assets\MovementControler.cs" />
-    <Compile Include="Assets\NoteScript.cs" />
-    <Compile Include="Assets\OutOfBoundsEvents.cs" />
-    <Compile Include="Assets\ParticleEvents.cs" />
-    <Compile Include="Assets\TriggerEventScript.cs" />
-    <Compile Include="Assets\UITextControler.cs" />
+    <Compile Include="Assets\DataTypeScripts\HealthFloatScript.cs" />
+    <Compile Include="Assets\DataTypeScripts\IntData.cs" />
+    <Compile Include="Assets\DataTypeScripts\UITextControler.cs" />
+    <Compile Include="Assets\movementScripts\Movement.cs" />
+    <Compile Include="Assets\movementScripts\MovementControler.cs" />
+    <Compile Include="Assets\particleAssets\ParticleEvents.cs" />
+    <Compile Include="Assets\Personalnotes\AppleSause.cs" />
+    <Compile Include="Assets\Personalnotes\NoteScript.cs" />
+    <Compile Include="Assets\SpecialEventScripts\OutOfBoundsEvents.cs" />
+    <Compile Include="Assets\SpecialEventScripts\TriggerEventScript.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/taycr/Documents/2019-(DGM-1610)/Paradox/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
