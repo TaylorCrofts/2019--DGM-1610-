@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 11816287}
   - component: {fileID: 11816286}
   - component: {fileID: 11816290}
+  - component: {fileID: 11816292}
   - component: {fileID: 11816291}
   m_Layer: 0
   m_Name: Player
@@ -194,7 +195,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 11816285}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.18896529, y: 0.83, z: 0.13}
+  m_LocalPosition: {x: -0.18896529, y: 2.08, z: 0.13}
   m_LocalScale: {x: 0.55886877, y: 0.55886877, z: 0.55886877}
   m_Children: []
   m_Father: {fileID: 0}
@@ -232,6 +233,21 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11816292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11816285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dce01d7b27062374698931172f225442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  gravity: -1.5
+  jumpSpeed: 10
+  controller: {fileID: 11816291}
 --- !u!1 &566733611
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,7 +358,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 668080589}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
