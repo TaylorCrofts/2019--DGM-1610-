@@ -3,21 +3,28 @@
 //The purpose of this script is to practice making collectible lore items that will be hidden in the game. 
 public class AppleSause : MonoBehaviour
 {
-	private float collectable = 1f;
-	
-	// Use this for initialization
-	public void OnEnable()
+	public string collectable = "Collectable Get";
+	public float collected =1f;
+
+	public void Collectables(float value)
 	{
-		Debug.Log("You're right, I'm fine");
+		collectable = collectable;
+	}
+}
+
+// Use this for initialization
+	//public void OnEnable()
+	
+	//	Debug.Log("You're right, I'm fine");
 		
 		//Hidden Game Story:
 		//This mourning I got a email from my scripting class. I assume it was my teacher who sent it out. It was an invitation to download an app to learn code better. so I downloaded it. I practiced and found that it was helping. In the past few days I have been so miserable that when i was on this app I was suddenly addicted to doing my homework. And it didn't really count but it made me feel better so what does it matter if I get a grade for it or not.
 		//Today wasn't so bad at all. I'm still pretty stuffed up with mucus but my rabbit MacBeth hopped on my lap 3 times today and I discovered that he loves chips and salsa, Alot! Perhaps i'll take things at my own pace. I confronted my manager today in person and was even able to file some orders for my family from the goods that I had been selling this week. I feel like an over aged girl scout but at least I feel better. I get to go to school tomorrow!
-	}
+	
 
-	public void OnDisable()
-	{
-		Debug.Log("I've Had a horrible day");
+	//public void OnDisable()
+	
+		//Debug.Log("I've Had a horrible day");
 		//if (OnDisable(Destroy(obj: );
 		
 		
@@ -29,12 +36,4 @@ public class AppleSause : MonoBehaviour
         //I've been thinking to myself this whole time. Reveiwing the past week, going even further into the past. I relized that I would be just as misserable now as if I was homeless and nobody was here. I relised that if I disappeared my mom might spend 3 days and no longer looking for me. She would call the cops sure. she would track my phone, contact my other family members and any friends she knew. She'd go to the exstent that would make it understandable for people to veiw her as greiving. but when I tell her I'm upset she tells me that i should do something about that. I should change my attitude. when She walks into my room and sees me on my computer it doesn't matter what I'm doing she often cals it crap, a waste of time , or lazyness. I want to animate and make video games and all she see's is me being lazy, me throwing a tantrum, I'm not unlucky I just cause bad things that I can't controll to happen to me. I don't have a hard time remebering names and numbers I just don't care. I don't know what it's like to love someone because I've never had sex. I love my mom, but I guess that doesn't count despite how cruel and unsympathetic she is sometimes. I feel like I have always been there for her. It's just only convinient for her if I'm protecting her no questions asked.
         //I wouldn't be surprised that if I disappeared the first thing she'd do is get rid of my rabbit, start selling my things or give them away"out of the kindness of her heart" or because "it's what I would have wanted" As soon as Im inconvinient as soon as I'm not interesting enough for the narrative I'm the problem that's easy to excuse away. She's human, but it seems noone else is allowed to be.
         //I just want to finish college and move. She's hasn't helped me with any of that. Just talk. The reason I've been able to go to college is because I work hard to get good grades. I used all that was left over from my grant last year to pay for the rent my mom is supposed to be paying. I did that 3 times ruffly $4,000 of my student aid went to rent because my mom fails to not spend her mony on nights out with clients and friends. She fails not to drive drunk, she fails to not buy ciggerets, she fails to pay for her little kids schooling, fails to be attracted to men who are'n crazy and just want to fuck. She fails on every level to act like an adult mom who has a responsibility to her family and self. I'm so tired of her problems being my problems just because I came out of the wrong god damn pussy!
-	}
-
-	void Start()
-	{
-		print("I'm Alive");
-	} 
 	
-	
-}

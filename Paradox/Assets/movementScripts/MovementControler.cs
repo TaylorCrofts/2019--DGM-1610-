@@ -4,9 +4,15 @@ public class MovementControler : MonoBehaviour
 {
 
 	public int jumpcount;
+	
+	// vvv Example of simplifying script when dealing with multiple of the same thing vvv
 	public float moveSpeed = 10f, gravity = 9.7f, jumpSpeed = 30f;
+	//____________________________________________________________________________________
+	
 	private CharacterController controller;
+	
 	private Vector3 position;
+	
 	private int jumpCountMax = 2;
 		
 	// Use this for initialization
