@@ -1,8 +1,12 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 [CreateAssetMenu]
 public class PlayerData : GameArtData
 {
-	public WeaponData weapon;
+	public List<WeaponData> weapon;
+	public FloatData health;
+	public Clothesdata shirt;
+	public Clothesdata pants;
 	
 	public void instancePlayer()
 	{

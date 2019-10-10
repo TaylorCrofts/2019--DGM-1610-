@@ -3,7 +3,10 @@ guid: 98bec25b5f889714082d3369a595177a
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - sprite: {fileID: 21300000, guid: 32edc6aa3e929414cbf67f10eb085017, type: 3}
+  - prefab: {fileID: 1979142720428570, guid: 7f5b135e131342b44825c76471db6ed2, type: 2}
+  - weapon: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
