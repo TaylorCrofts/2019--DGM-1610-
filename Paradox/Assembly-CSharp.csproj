@@ -73,6 +73,7 @@
     <Compile Include="Assets\Personalnotes\AppleSause.cs" />
     <Compile Include="Assets\Personalnotes\NoteScript.cs" />
     <Compile Include="Assets\Players\PlayerData.cs" />
+    <Compile Include="Assets\Scripts from Class\ExampleClass.cs" />
     <Compile Include="Assets\SpecialEventScripts\MonoEvents.cs" />
     <Compile Include="Assets\SpecialEventScripts\OutOfBoundsEvents.cs" />
     <Compile Include="Assets\SpecialEventScripts\TriggerEventScript.cs" />
