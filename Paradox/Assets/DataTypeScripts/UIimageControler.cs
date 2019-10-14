@@ -1,15 +1,16 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
-public class UIimageControler : MonoBehaviour
+public class UIImageControler : MonoBehaviour
 {
-	private Image img;
+	private Image _image;
 	void Awake()
 	{
-	img = GetComponent <Image>();
+	_image = GetComponent <Image>();
 	}
+	
 	public void UpdateImage (FloatData data)
 	{
-		img.fillAmount = data.value;
+		_image.fillAmount = data.value;
 	}
 }
