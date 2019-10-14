@@ -7,14 +7,14 @@ using UnityEngine.UI;
 public class UITextControler : MonoBehaviour
 {
 	public UnityEvent startEvent;
-	private Text textLable;
-
-	public void UpdateText(IntData data)
-	{
-		textLable.text = data.value.ToString();
-	}
+	public Text textLable;
 	void Awake()
 	{ 
 		textLable = GetComponent<Text>();
+	}
+	
+	public void UpdateText(IntData data)
+	{ 
+		textLable.text = data.value.ToString();
 	}
 }
