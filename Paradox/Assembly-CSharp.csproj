@@ -70,7 +70,8 @@
     <Compile Include="Assets\movementScripts\MovementControler.cs" />
     <Compile Include="Assets\On startControler.cs" />
     <Compile Include="Assets\particleAssets\ParticleEvents.cs" />
-    <Compile Include="Assets\Players\PlayerData.cs" />
+    <Compile Include="Assets\PlayerData.cs" />
+    <Compile Include="Assets\Players\CinimasceneController.cs" />
     <Compile Include="Assets\Scripts from Class\ExampleClass.cs" />
     <Compile Include="Assets\Scripts from Class\IfStatementScript.cs" />
     <Compile Include="Assets\Scripts from Class\Personalnotes\AppleSause.cs" />
@@ -84,6 +85,12 @@
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/10873957/Documents/gitkraken repo/Repo-1610/2019_DGM-1610-/Paradox/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/10873957/Documents/gitkraken repo/Repo-1610/2019_DGM-1610-/Paradox/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/10873957/Documents/gitkraken repo/Repo-1610/2019_DGM-1610-/Paradox/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
