@@ -8,9 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: Float Data 1
-  m_EditorClassIdentifier: Assembly-CSharp::FloatData
-  value: 5
-  minValue: 0
-  maxValue: 10
+  m_Script: {fileID: 11500000, guid: 6dc597e95205f7345a99839a1d838e58, type: 3}
+  m_Name: New Clothesdata
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  color: {r: 1, g: 0, b: 0, a: 1}
+  prefab: {fileID: 0}
