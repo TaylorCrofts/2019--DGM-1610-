@@ -70,10 +70,11 @@
     <Compile Include="Assets\movementScripts\MovementControler.cs" />
     <Compile Include="Assets\On startControler.cs" />
     <Compile Include="Assets\particleAssets\ParticleEvents.cs" />
-    <Compile Include="Assets\Personalnotes\AppleSause.cs" />
-    <Compile Include="Assets\Personalnotes\NoteScript.cs" />
     <Compile Include="Assets\Players\PlayerData.cs" />
     <Compile Include="Assets\Scripts from Class\ExampleClass.cs" />
+    <Compile Include="Assets\Scripts from Class\IfStatementScript.cs" />
+    <Compile Include="Assets\Scripts from Class\Personalnotes\AppleSause.cs" />
+    <Compile Include="Assets\Scripts from Class\Personalnotes\NoteScript.cs" />
     <Compile Include="Assets\Scripts from Class\StartBehavior.cs" />
     <Compile Include="Assets\SpecialEventScripts\MonoEvents.cs" />
     <Compile Include="Assets\SpecialEventScripts\OutOfBoundsEvents.cs" />
