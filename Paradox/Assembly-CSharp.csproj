@@ -81,14 +81,14 @@
     <Compile Include="Assets\SpecialEventScripts\MonoEvents.cs" />
     <Compile Include="Assets\SpecialEventScripts\OutOfBoundsEvents.cs" />
     <Compile Include="Assets\SpecialEventScripts\TriggerEventScript.cs" />
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/taycr/Documents/2019-(DGM-1610)/Paradox/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/taycr/Documents/2019-(DGM-1610)/Paradox/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/taycr/Documents/2019-(DGM-1610)/Paradox/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>C:/Users/taycr/Documents/2019-(DGM-1610)/Paradox/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>C:/Users/taycr/Documents/2019-(DGM-1610)/Paradox/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>

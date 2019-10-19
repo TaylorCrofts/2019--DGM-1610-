@@ -1211,6 +1211,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  textLable: {fileID: 0}
 --- !u!114 &1446740725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1956,6 +1957,26 @@ Prefab:
     - target: {fileID: 4346469494466484, guid: 7f5b135e131342b44825c76471db6ed2, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114505184844682342, guid: 7f5b135e131342b44825c76471db6ed2,
+        type: 2}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1876921843}
+    - target: {fileID: 114505184844682342, guid: 7f5b135e131342b44825c76471db6ed2,
+        type: 2}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 114505184844682342, guid: 7f5b135e131342b44825c76471db6ed2,
+        type: 2}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114505184844682342, guid: 7f5b135e131342b44825c76471db6ed2,
+        type: 2}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 212146196206996342, guid: 7f5b135e131342b44825c76471db6ed2, type: 2}
