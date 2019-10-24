@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\DataTypeScripts\Clothesdata.cs" />
     <Compile Include="Assets\DataTypeScripts\FloatScript.cs" />
+    <Compile Include="Assets\DataTypeScripts\GameArtCollection.cs" />
     <Compile Include="Assets\DataTypeScripts\GameArtData.cs" />
     <Compile Include="Assets\DataTypeScripts\IntData.cs" />
     <Compile Include="Assets\DataTypeScripts\UIimageControler.cs" />
