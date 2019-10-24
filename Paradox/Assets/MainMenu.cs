@@ -7,4 +7,10 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 
+    public void ExitGame()
+    {
+        print("You've left the game");
+        Application.Quit();
+    }
+
 }
