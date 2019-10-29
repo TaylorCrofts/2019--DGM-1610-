@@ -14,11 +14,15 @@
           <e p="triggerEvents.cs" t="Include" />
           <e p="VarsClass.cs" t="Include" />
         </e>
+        <e p="OnLMouseDown.cs" t="Include" />
         <e p="ScriptsFromClass" t="Include">
           <e p="ApplyForce.cs" t="Include" />
           <e p="CatClass.cs" t="Include" />
           <e p="CollisionEventScript.cs" t="Include" />
+          <e p="DeBugger.cs" t="Include" />
+          <e p="DebuggerHandler.cs" t="Include" />
           <e p="DogClass.cs" t="Include" />
+          <e p="EnumSwitch.cs" t="Include" />
           <e p="FloatScript.cs" t="Include" />
           <e p="GetFruit.cs" t="Include" />
           <e p="IFstatements.cs" t="Include" />
@@ -26,6 +30,8 @@
           <e p="Movement.cs" t="Include" />
           <e p="NoteScript.cs" t="Include" />
           <e p="ParticleSystemScript.cs" t="Include" />
+          <e p="PlayerHandeler.cs" t="Include" />
+          <e p="VarsClass.cs" t="Include" />
         </e>
       </e>
       <e p="CodeBlue.sln" t="IncludeFlat" />
