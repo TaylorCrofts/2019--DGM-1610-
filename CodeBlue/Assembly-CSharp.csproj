@@ -65,10 +65,14 @@
     <Compile Include="Assets\HomeScripts\PlayerParticalSystemPlayerParticleSystem.cs" />
     <Compile Include="Assets\HomeScripts\TriggerEvents.cs" />
     <Compile Include="Assets\HomeScripts\VarsClass.cs" />
+    <Compile Include="Assets\OnLMouseDown.cs" />
     <Compile Include="Assets\ScriptsFromClass\ApplyForce.cs" />
     <Compile Include="Assets\ScriptsFromClass\CatClass.cs" />
     <Compile Include="Assets\ScriptsFromClass\CollisionEventScript.cs" />
+    <Compile Include="Assets\ScriptsFromClass\DeBugger.cs" />
+    <Compile Include="Assets\ScriptsFromClass\DebuggerHandler.cs" />
     <Compile Include="Assets\ScriptsFromClass\DogClass.cs" />
+    <Compile Include="Assets\ScriptsFromClass\EnumSwitch.cs" />
     <Compile Include="Assets\ScriptsFromClass\FloatScript.cs" />
     <Compile Include="Assets\ScriptsFromClass\GetFruit.cs" />
     <Compile Include="Assets\ScriptsFromClass\IFstatements.cs" />
@@ -76,6 +80,7 @@
     <Compile Include="Assets\ScriptsFromClass\Movement.cs" />
     <Compile Include="Assets\ScriptsFromClass\NoteScript.cs" />
     <Compile Include="Assets\ScriptsFromClass\ParticleSystemScript.cs" />
+    <Compile Include="Assets\ScriptsFromClass\VarsClass.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/10873957/Documents/gitkraken repo/Repo-1610/2019_DGM-1610-/CodeBlue/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

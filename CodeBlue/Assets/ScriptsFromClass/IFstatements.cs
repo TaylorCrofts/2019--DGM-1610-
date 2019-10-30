@@ -20,8 +20,6 @@ public class IFstatements : MonoBehaviour
 	
 	public string password = "Friends";
 	public bool lightsOn = false;
-	
-	// Use this for initialization
 	void Start ()
 	{
 		if (a+b==c)
@@ -29,19 +27,11 @@ public class IFstatements : MonoBehaviour
 			print("True.");
 		}
 
-		if (password != "OU812") ;
+		if (password != "OU812") ; 
 		{
 			print("access");
 		}
-		if (!lightsOn)
-		{
-			print("True!");
-		}
-		else
-		{
-			print("false");
-		}
-		
+		print(!lightsOn ? "True!" : "false");
 	}
 	
 }
