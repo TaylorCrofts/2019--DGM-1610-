@@ -59,26 +59,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DataTypeScripts\Clothesdata.cs" />
-    <Compile Include="Assets\DataTypeScripts\FloatScript.cs" />
-    <Compile Include="Assets\DataTypeScripts\GameArtCollection.cs" />
-    <Compile Include="Assets\DataTypeScripts\GameArtData.cs" />
-    <Compile Include="Assets\DataTypeScripts\IntData.cs" />
-    <Compile Include="Assets\DataTypeScripts\UIimageControler.cs" />
-    <Compile Include="Assets\DataTypeScripts\UITextControler.cs" />
-    <Compile Include="Assets\DataTypeScripts\WeaponData.cs" />
+    <Compile Include="Assets\Gizmos\CinimasceneController.cs" />
     <Compile Include="Assets\MainMenu.cs" />
-    <Compile Include="Assets\movementScripts\Movement.cs" />
-    <Compile Include="Assets\movementScripts\MovementControler.cs" />
     <Compile Include="Assets\On startControler.cs" />
-    <Compile Include="Assets\particleAssets\ParticleEvents.cs" />
     <Compile Include="Assets\PlayerData.cs" />
-    <Compile Include="Assets\Players\CinimasceneController.cs" />
     <Compile Include="Assets\Scripts from Class\ApplyForce.cs" />
     <Compile Include="Assets\Scripts from Class\ExampleClass.cs" />
     <Compile Include="Assets\Scripts from Class\IfStatementScript.cs" />
     <Compile Include="Assets\Scripts from Class\Personalnotes\NoteScript.cs" />
     <Compile Include="Assets\Scripts from Class\StartBehavior.cs" />
+    <Compile Include="Assets\Scripts\Clothesdata.cs" />
+    <Compile Include="Assets\Scripts\FloatScript.cs" />
+    <Compile Include="Assets\Scripts\GameArtCollection.cs" />
+    <Compile Include="Assets\Scripts\GameArtData.cs" />
+    <Compile Include="Assets\Scripts\IntData.cs" />
+    <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\MovementControler.cs" />
+    <Compile Include="Assets\Scripts\ParticleEvents.cs" />
+    <Compile Include="Assets\Scripts\UIimageControler.cs" />
+    <Compile Include="Assets\Scripts\UITextControler.cs" />
+    <Compile Include="Assets\Scripts\WeaponData.cs" />
     <Compile Include="Assets\SpecialEventScripts\MonoEvents.cs" />
     <Compile Include="Assets\SpecialEventScripts\OutOfBoundsEvents.cs" />
     <Compile Include="Assets\SpecialEventScripts\TriggerEventScript.cs" />
