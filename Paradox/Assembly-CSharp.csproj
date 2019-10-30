@@ -105,7 +105,11 @@
     <Compile Include="Assets\Scripts from Class\TriggerEventScript.cs" />
     <Compile Include="Assets\Scripts\CinimasceneController.cs" />
     <Compile Include="Assets\Scripts\Clothesdata.cs" />
+    <Compile Include="Assets\Scripts\DebugHandlingScript.cs" />
+    <Compile Include="Assets\Scripts\DebugingScript.cs" />
+    <Compile Include="Assets\Scripts\EnumScript.cs" />
     <Compile Include="Assets\Scripts\FloatScript.cs" />
+    <Compile Include="Assets\Scripts\functionsScript.cs" />
     <Compile Include="Assets\Scripts\GameArtCollection.cs" />
     <Compile Include="Assets\Scripts\GameArtData.cs" />
     <Compile Include="Assets\Scripts\IntData.cs" />
