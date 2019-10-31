@@ -16,6 +16,9 @@
         </e>
         <e p="OnLMouseDown.cs" t="Include" />
         <e p="ScriptsFromClass" t="Include">
+          <e p="AIScripts" t="Include">
+            <e p="agenthandler.cs" t="Include" />
+          </e>
           <e p="ApplyForce.cs" t="Include" />
           <e p="CatClass.cs" t="Include" />
           <e p="CollisionEventScript.cs" t="Include" />
