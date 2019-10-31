@@ -30,7 +30,6 @@
           <e p="Movement.cs" t="Include" />
           <e p="NoteScript.cs" t="Include" />
           <e p="ParticleSystemScript.cs" t="Include" />
-          <e p="PlayerHandeler.cs" t="Include" />
           <e p="VarsClass.cs" t="Include" />
         </e>
       </e>
