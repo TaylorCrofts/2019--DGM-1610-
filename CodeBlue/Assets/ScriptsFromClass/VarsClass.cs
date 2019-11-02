@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-public partial class VarsClass : MonoBehaviour
+public partial class StringClass : MonoBehaviour
 {
  public float floatValue = 5.5f;
  public int intValue = 20;
