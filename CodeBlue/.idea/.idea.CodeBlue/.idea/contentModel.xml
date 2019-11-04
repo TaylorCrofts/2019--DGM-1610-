@@ -29,10 +29,12 @@
           <e p="FloatScript.cs" t="Include" />
           <e p="GetFruit.cs" t="Include" />
           <e p="IFstatements.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="NoteScript.cs" t="Include" />
           <e p="ParticleSystemScript.cs" t="Include" />
+          <e p="UItextController.cs" t="Include" />
           <e p="VarsClass.cs" t="Include" />
         </e>
       </e>
