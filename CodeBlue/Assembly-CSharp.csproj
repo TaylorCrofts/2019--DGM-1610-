@@ -67,6 +67,8 @@
     <Compile Include="Assets\HomeScripts\TriggerEvents.cs" />
     <Compile Include="Assets\OnLMouseDown.cs" />
     <Compile Include="Assets\ScriptsFromClass\AIScripts\agenthandler.cs" />
+    <Compile Include="Assets\ScriptsFromClass\AIScripts\AINav.cs" />
+    <Compile Include="Assets\ScriptsFromClass\AIScripts\V3Data.cs" />
     <Compile Include="Assets\ScriptsFromClass\ApplyForce.cs" />
     <Compile Include="Assets\ScriptsFromClass\CatClass.cs" />
     <Compile Include="Assets\ScriptsFromClass\CollisionEventScript.cs" />
@@ -78,6 +80,7 @@
     <Compile Include="Assets\ScriptsFromClass\GetFruit.cs" />
     <Compile Include="Assets\ScriptsFromClass\IFstatements.cs" />
     <Compile Include="Assets\ScriptsFromClass\IntData.cs" />
+    <Compile Include="Assets\ScriptsFromClass\Mouse2Events.cs" />
     <Compile Include="Assets\ScriptsFromClass\MouseEvents.cs" />
     <Compile Include="Assets\ScriptsFromClass\Movement.cs" />
     <Compile Include="Assets\ScriptsFromClass\NoteScript.cs" />
