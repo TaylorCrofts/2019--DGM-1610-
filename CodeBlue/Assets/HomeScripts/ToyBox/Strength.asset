@@ -9,6 +9,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9c1502bacba34b4d837f8ae6d0a7c94, type: 3}
-  m_Name: Bob
+  m_Name: Strength
   m_EditorClassIdentifier: 
   value: 13
