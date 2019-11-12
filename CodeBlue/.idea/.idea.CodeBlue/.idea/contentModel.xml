@@ -24,6 +24,7 @@
           <e p="ApplyForce.cs" t="Include" />
           <e p="CatClass.cs" t="Include" />
           <e p="CollisionEventScript.cs" t="Include" />
+          <e p="CoRoutines.cs" t="Include" />
           <e p="DeBugger.cs" t="Include" />
           <e p="DebuggerHandler.cs" t="Include" />
           <e p="DogClass.cs" t="Include" />

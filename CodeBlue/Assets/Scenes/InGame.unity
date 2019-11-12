@@ -323,8 +323,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 15
-  gravity: 10
-  jumpspeed: 48
+  gravity: 4
+  jumpspeed: 60
   jumpCountMax: 2
 --- !u!143 &336137659
 CharacterController:

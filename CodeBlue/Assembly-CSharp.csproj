@@ -72,6 +72,7 @@
     <Compile Include="Assets\ScriptsFromClass\ApplyForce.cs" />
     <Compile Include="Assets\ScriptsFromClass\CatClass.cs" />
     <Compile Include="Assets\ScriptsFromClass\CollisionEventScript.cs" />
+    <Compile Include="Assets\ScriptsFromClass\CoRoutines.cs" />
     <Compile Include="Assets\ScriptsFromClass\DeBugger.cs" />
     <Compile Include="Assets\ScriptsFromClass\DebuggerHandler.cs" />
     <Compile Include="Assets\ScriptsFromClass\DogClass.cs" />
