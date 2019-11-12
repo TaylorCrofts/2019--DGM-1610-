@@ -26,8 +26,8 @@ public class Functions : MonoBehaviour
 	private GameObject ConfigGameObject()
 	{
 		var Newplayer = Instantiate(player);
-		Newplayer.layer = 0;
-		Newplayer.active = true;
+		Newplayer.layer = 0; 
+		Newplayer.SetActive (true);
 		Newplayer.tag = "Player";
 		Newplayer.transform.position=Vector3.zero;
 		Newplayer.name = playerName;
