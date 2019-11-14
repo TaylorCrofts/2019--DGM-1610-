@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-
+//CoRoutines Are used to delay, repeate and stop things.
 public class CoRoutines : MonoBehaviour
 {
     public UnityEvent startEvent, repeatEvent, endEvent;
@@ -16,6 +16,7 @@ public class CoRoutines : MonoBehaviour
     private void Awake()
     {
         wfsObj= new WaitForSeconds(seconds);
+        
     }
 
     public void CallCoRoutine()

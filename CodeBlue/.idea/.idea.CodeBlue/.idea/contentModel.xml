@@ -24,6 +24,7 @@
           <e p="ApplyForce.cs" t="Include" />
           <e p="CatClass.cs" t="Include" />
           <e p="CollisionEventScript.cs" t="Include" />
+          <e p="CoroutineClass.cs" t="Include" />
           <e p="CoRoutines.cs" t="Include" />
           <e p="DeBugger.cs" t="Include" />
           <e p="DebuggerHandler.cs" t="Include" />
@@ -36,12 +37,10 @@
           <e p="Mouse2Events.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="NoteScript.cs" t="Include" />
           <e p="ParticleSystemScript.cs" t="Include" />
-<<<<<<< Updated upstream
           <e p="UITextController.cs" t="Include" />
-=======
->>>>>>> Stashed changes
           <e p="VarsClass.cs" t="Include" />
         </e>
       </e>

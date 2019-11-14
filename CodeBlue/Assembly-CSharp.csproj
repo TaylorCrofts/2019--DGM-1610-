@@ -72,6 +72,7 @@
     <Compile Include="Assets\ScriptsFromClass\ApplyForce.cs" />
     <Compile Include="Assets\ScriptsFromClass\CatClass.cs" />
     <Compile Include="Assets\ScriptsFromClass\CollisionEventScript.cs" />
+    <Compile Include="Assets\ScriptsFromClass\CoroutineClass.cs" />
     <Compile Include="Assets\ScriptsFromClass\CoRoutines.cs" />
     <Compile Include="Assets\ScriptsFromClass\DeBugger.cs" />
     <Compile Include="Assets\ScriptsFromClass\DebuggerHandler.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets\ScriptsFromClass\Mouse2Events.cs" />
     <Compile Include="Assets\ScriptsFromClass\MouseEvents.cs" />
     <Compile Include="Assets\ScriptsFromClass\Movement.cs" />
+    <Compile Include="Assets\ScriptsFromClass\NewBehaviourScript.cs" />
     <Compile Include="Assets\ScriptsFromClass\NoteScript.cs" />
     <Compile Include="Assets\ScriptsFromClass\ParticleSystemScript.cs" />
     <Compile Include="Assets\ScriptsFromClass\UITextController.cs" />
