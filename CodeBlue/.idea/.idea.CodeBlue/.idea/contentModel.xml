@@ -6,6 +6,7 @@
     <e p="C:\Users\taycr\Documents\2019-(DGM-1610)\CodeBlue" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ClothesData.cs" t="Include" />
         <e p="Functions.cs" t="Include" />
         <e p="HomeScripts" t="Include">
           <e p="HealthFloatScript.cs" t="Include" />
@@ -15,6 +16,7 @@
           <e p="TriggerEvents.cs" t="Include" />
         </e>
         <e p="OnLMouseDown.cs" t="Include" />
+        <e p="PlayerData.cs" t="Include" />
         <e p="ScriptsFromClass" t="Include">
           <e p="AIScripts" t="Include">
             <e p="agenthandler.cs" t="Include" />
@@ -31,6 +33,7 @@
           <e p="DogClass.cs" t="Include" />
           <e p="EnumSwitch.cs" t="Include" />
           <e p="FloatScript.cs" t="Include" />
+          <e p="GameArtData.cs" t="Include" />
           <e p="GetFruit.cs" t="Include" />
           <e p="IFstatements.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
@@ -43,8 +46,10 @@
           <e p="ParticleSystemScript.cs" t="Include" />
           <e p="UITextController.cs" t="Include" />
           <e p="VarsClass.cs" t="Include" />
+          <e p="WeaponData.cs" t="Include" />
         </e>
         <e p="UIImageController.cs" t="Include" />
+        <e p="Vector3Data.cs" t="Include" />
       </e>
       <e p="CodeBlue.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

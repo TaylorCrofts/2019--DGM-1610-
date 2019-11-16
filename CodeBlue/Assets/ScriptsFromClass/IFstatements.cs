@@ -34,6 +34,7 @@ namespace ScriptsFromClass
 			}
 			print(!lightsOn ? "True!" : "false");
 		}
+		
 	
 	}
 }
