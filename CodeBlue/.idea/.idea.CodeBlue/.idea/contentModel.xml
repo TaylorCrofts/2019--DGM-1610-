@@ -6,6 +6,7 @@
     <e p="C:\Users\taycr\Documents\2019-(DGM-1610)\CodeBlue" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CineMachineController.cs" t="Include" />
         <e p="ClothesData.cs" t="Include" />
         <e p="FloatData.cs" t="Include" />
         <e p="Functions.cs" t="Include" />
@@ -34,10 +35,12 @@
           <e p="DogClass.cs" t="Include" />
           <e p="EnumSwitch.cs" t="Include" />
           <e p="FloatScript.cs" t="Include" />
+          <e p="GameArtCollection.cs" t="Include" />
           <e p="GameArtData.cs" t="Include" />
           <e p="GetFruit.cs" t="Include" />
           <e p="IFstatements.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
+          <e p="Lists.cs" t="Include" />
           <e p="Mono.cs" t="Include" />
           <e p="Mouse2Events.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
