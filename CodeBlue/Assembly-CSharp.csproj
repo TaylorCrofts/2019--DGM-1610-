@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ClothesData.cs" />
+    <Compile Include="Assets\FloatData.cs" />
     <Compile Include="Assets\Functions.cs" />
     <Compile Include="Assets\HomeScripts\HealthFloatScript.cs" />
     <Compile Include="Assets\HomeScripts\IntMyAge.cs" />
