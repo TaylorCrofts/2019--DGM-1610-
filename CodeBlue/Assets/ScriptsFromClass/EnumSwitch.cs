@@ -1,36 +1,36 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
-public class EnumSwitch : MonoBehaviour
+namespace ScriptsFromClass
 {
-    public enum States
+    public class EnumSwitch : MonoBehaviour
     {
-        Start,
-        Playing,
-        End
-    }
-
-    public UnityEvent OnStartEvent, OnPlayingEvent, OnEndEvent;
-
-
-    public States currentState;
-
-    void Update()
-    {
-        switch (currentState)
+        public enum States
         {
-            case States.Start:
-                OnStartEvent.Invoke();
-                break;
-            case States.Playing:
-                OnPlayingEvent.Invoke();
-                break;
-            case States.End:
-                OnEndEvent.Invoke();
-                break;
+            Start,
+            Playing,
+            End
+        }
+
+        public UnityEvent OnStartEvent, OnPlayingEvent, OnEndEvent;
+
+
+        public States currentState;
+
+        void Update()
+        {
+            switch (currentState)
+            {
+                case States.Start:
+                    OnStartEvent.Invoke();
+                    break;
+                case States.Playing:
+                    OnPlayingEvent.Invoke();
+                    break;
+                case States.End:
+                    OnEndEvent.Invoke();
+                    break;
+            }
         }
     }
 }

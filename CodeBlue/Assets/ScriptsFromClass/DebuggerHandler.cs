@@ -1,15 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using UnityEngine;
 
-public class DebuggerHandler : MonoBehaviour
+namespace ScriptsFromClass
 {
-
-	public Debugger debuggerObj;
-
-	public void SwitchDebugger(Debugger newDebuggerObj)
+	public class DebuggerHandler : MonoBehaviour
 	{
-		debuggerObj = newDebuggerObj;
+
+		public Debugger debuggerObj;
+
+		public void SwitchDebugger(Debugger newDebuggerObj)
+		{
+			debuggerObj = newDebuggerObj;
+		}
 	}
 }

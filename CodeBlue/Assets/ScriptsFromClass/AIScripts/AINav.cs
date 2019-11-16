@@ -1,19 +1,22 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
 
-[RequireComponent(typeof(NavMeshAgent))]
-public class AINav : MonoBehaviour
+namespace ScriptsFromClass.AIScripts
 {
-	private NavMeshAgent agent;
-	public V3Data location;
-	void Start()
+	[RequireComponent(typeof(NavMeshAgent))]
+	public class AINav : MonoBehaviour
 	{
-		agent = GetComponent<NavMeshAgent>();
-	}
+		private NavMeshAgent agent;
+		public V3Data location;
+		void Start()
+		{
+			agent = GetComponent<NavMeshAgent>();
+		}
 
 	
-	void Update()
-	{
-		agent.destination=location.value;
+		void Update()
+		{
+			agent.destination=location.value;
+		}
 	}
 }

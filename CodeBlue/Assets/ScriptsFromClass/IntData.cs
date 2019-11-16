@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu]
-public class IntData : ScriptableObject
+namespace ScriptsFromClass
 {
-   public int value = 1;
-
-   public void UpdateValue(int number)
+   [CreateAssetMenu]
+   public class IntData : ScriptableObject
    {
-      value += number;
+      public int value = 1;
+
+      public void UpdateValue(int number)
+      {
+         value += number;
+      }
    }
 }

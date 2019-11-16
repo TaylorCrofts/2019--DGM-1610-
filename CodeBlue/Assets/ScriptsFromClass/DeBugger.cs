@@ -1,18 +1,20 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
-public class DeBugger : ScriptableObject
+
+namespace ScriptsFromClass
 {
-	public void OnDebug (String words)
+	[CreateAssetMenu]
+	public class DeBugger : ScriptableObject
 	{
-		Debug.Log(words);
-	}
+		public void OnDebug (String words)
+		{
+			Debug.Log(words);
+		}
 
-	public void OnDebug()
-	{
-		Debug.Log(name);
+		public void OnDebug()
+		{
+			Debug.Log(name);
 
+		}
 	}
 }

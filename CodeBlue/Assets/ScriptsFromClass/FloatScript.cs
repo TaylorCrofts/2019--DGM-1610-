@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu]
-public class FloatScript : ScriptableObject
+namespace ScriptsFromClass
 {
-    public float value = 2f;
-
-    public void UpdateValue(float amount)
+    [CreateAssetMenu]
+    public class FloatScript : ScriptableObject
     {
-        value += amount;
+        public float value = 2f;
+
+        public void UpdateValue(float amount)
+        {
+            value += amount;
+        }
     }
 }

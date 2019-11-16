@@ -1,36 +1,39 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
-[RequireComponent(typeof(NavMeshAgent))]
-public class agenthandler : MonoBehaviour
+
+namespace ScriptsFromClass.AIScripts
 {
-    private NavMeshAgent agent;
-    public Transform destinationObj;
-    private Transform currentDestination;
-    private GameObject StartObj;
-
-    void Start()
+    [RequireComponent(typeof(NavMeshAgent))]
+    public class agenthandler : MonoBehaviour
     {
-        StartObj=new GameObject();
-        StartObj.transform.position = transform.position;
-        currentDestination = transform;
-        agent = GetComponent<NavMeshAgent>();
-        currentDestination = transform;
-    }
+        private NavMeshAgent agent;
+        public Transform destinationObj;
+        private Transform currentDestination;
+        private GameObject StartObj;
 
-    private void OnTriggerEnter(Collider other)
-    {
-        currentDestination = destinationObj;
-    }
+        void Start()
+        {
+            StartObj=new GameObject();
+            StartObj.transform.position = transform.position;
+            currentDestination = transform;
+            agent = GetComponent<NavMeshAgent>();
+            currentDestination = transform;
+        }
 
-    private void OnTriggerExit(Collider other)
-    {
-        currentDestination = StartObj.transform;
-    }
+        private void OnTriggerEnter(Collider other)
+        {
+            currentDestination = destinationObj;
+        }
 
-    void Update()
-    { 
-       agent.destination = currentDestination.position;
-    }
+        private void OnTriggerExit(Collider other)
+        {
+            currentDestination = StartObj.transform;
+        }
 
+        void Update()
+        { 
+            agent.destination = currentDestination.position;
+        }
+
+    }
 }

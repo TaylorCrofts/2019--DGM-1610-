@@ -1,9 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-[CreateAssetMenu]
-public class V3Data : ScriptableObject
+﻿using UnityEngine;
+
+namespace ScriptsFromClass.AIScripts
 {
+	[CreateAssetMenu]
+	public class V3Data : ScriptableObject
+	{
 	
-	public Vector3 value;
+		public Vector3 value;
+	}
 }

@@ -1,23 +1,26 @@
 ﻿using UnityEngine;
 
-public class Mouse2Events : MonoBehaviour
+namespace ScriptsFromClass
 {
-	public Vector3 data;
-	public Camera cam;
-	private void OnMouseDown()
+	public class Mouse2Events : MonoBehaviour
 	{
-		RaycastHit hit;
-		var ray = cam.ScreenPointToRay(Input.mousePosition);
-		if (Physics.Raycast(ray,out hit))
+		public Vector3 data;
+		public Camera cam;
+		private void OnMouseDown()
 		{
-			//data.value = hit.point;
-			//data.value = hit;
-			//Debug.Log(hit);
+			RaycastHit hit;
+			var ray = cam.ScreenPointToRay(Input.mousePosition);
+			if (Physics.Raycast(ray,out hit))
+			{
+				//data.value = hit.point;
+				//data.value = hit;
+				//Debug.Log(hit);
+			}
 		}
-	}
 
-	private void Start()
-	{
-		cam = Camera.main;
+		private void Start()
+		{
+			cam = Camera.main;
+		}
 	}
 }

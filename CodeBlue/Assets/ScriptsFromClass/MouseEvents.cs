@@ -1,13 +1,15 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
-public class MouseEvents : MonoBehaviour
+namespace ScriptsFromClass
 {
-    public UnityEvent MouseEvent;
-    public void OnMouseUp()
+    public class MouseEvents : MonoBehaviour
     {
-        MouseEvent.Invoke();
+        public UnityEvent MouseEvent;
+        public void OnMouseUp()
+        {
+            MouseEvent.Invoke();
+        }
     }
 }
 

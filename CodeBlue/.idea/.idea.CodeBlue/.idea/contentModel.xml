@@ -34,6 +34,7 @@
           <e p="GetFruit.cs" t="Include" />
           <e p="IFstatements.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
+          <e p="Mono.cs" t="Include" />
           <e p="Mouse2Events.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="Movement.cs" t="Include" />

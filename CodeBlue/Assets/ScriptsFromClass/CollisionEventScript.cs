@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
-
-
-public class CollisionEventScript : MonoBehaviour
+namespace ScriptsFromClass
 {
-    public UnityEvent CollisionEvent;
-    public void OnTriggerEnter(Collider other)
+    public class CollisionEventScript : MonoBehaviour
     {
-        print("Bam!");
+        public UnityEvent CollisionEvent;
+        public void OnTriggerEnter(Collider other)
+        {
+            print("Bam!");
+        }
     }
 }

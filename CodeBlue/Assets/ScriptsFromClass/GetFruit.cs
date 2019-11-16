@@ -1,30 +1,31 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class GetFruit : MonoBehaviour
+namespace ScriptsFromClass
 {
-	public bool appleIsRipe, orangeIsRipe, peachIsRipe;
-
-	void Start () 
+	public class GetFruit : MonoBehaviour
 	{
-		if (appleIsRipe)
+		public bool appleIsRipe, orangeIsRipe, peachIsRipe;
+
+		void Start () 
 		{
-			print("Go pick the Apple");
-		}
-		else if (orangeIsRipe)
-		{
-			print("Go pick the Orange");
-		} else if (peachIsRipe)
-		{
-			print("Go pick the Peach");
-		}
-		else
-		{
-			print("Nothing is right");
-		}
+			if (appleIsRipe)
+			{
+				print("Go pick the Apple");
+			}
+			else if (orangeIsRipe)
+			{
+				print("Go pick the Orange");
+			} else if (peachIsRipe)
+			{
+				print("Go pick the Peach");
+			}
+			else
+			{
+				print("Nothing is right");
+			}
 		
 		
-	}
+		}
 	
+	}
 }

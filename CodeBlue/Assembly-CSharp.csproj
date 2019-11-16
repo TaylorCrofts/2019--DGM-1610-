@@ -82,6 +82,7 @@
     <Compile Include="Assets\ScriptsFromClass\GetFruit.cs" />
     <Compile Include="Assets\ScriptsFromClass\IFstatements.cs" />
     <Compile Include="Assets\ScriptsFromClass\IntData.cs" />
+    <Compile Include="Assets\ScriptsFromClass\Mono.cs" />
     <Compile Include="Assets\ScriptsFromClass\Mouse2Events.cs" />
     <Compile Include="Assets\ScriptsFromClass\MouseEvents.cs" />
     <Compile Include="Assets\ScriptsFromClass\Movement.cs" />

@@ -1,17 +1,19 @@
 ﻿using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(Text))]
-public class UITextController : MonoBehaviour
+namespace ScriptsFromClass
 {
-    private Text textLabel;
-    void Awake()
+    [RequireComponent(typeof(Text))]
+    public class UITextController : MonoBehaviour
     {
-        textLabel = GetComponent<Text>();
-    }
-    public void UpdateText(IntData data)
-    {
-        textLabel.text = data.value.ToString();
+        private Text textLabel;
+        void Awake()
+        {
+            textLabel = GetComponent<Text>();
+        }
+        public void UpdateText(IntData data)
+        {
+            textLabel.text = data.value.ToString();
+        }
     }
 }

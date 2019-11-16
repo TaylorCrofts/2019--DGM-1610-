@@ -1,12 +1,15 @@
 ﻿
 using UnityEngine;
 
-public class DogClass : MonoBehaviour
+namespace ScriptsFromClass
 {
-	public UnityEngine.Events.UnityEvent doesStuff;
-	private void OnMouseDown()
+	public class DogClass : MonoBehaviour
 	{
-		doesStuff.Invoke();
+		public UnityEngine.Events.UnityEvent doesStuff;
+		private void OnMouseDown()
+		{
+			doesStuff.Invoke();
+		}
 	}
 }
 
