@@ -101,14 +101,14 @@
     <Compile Include="Assets\ScriptsFromClass\WeaponData.cs" />
     <Compile Include="Assets\UIImageController.cs" />
     <Compile Include="Assets\Vector3Data.cs" />
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/taycr/Documents/2019-(DGM-1610)/CodeBlue/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/taycr/Documents/2019-(DGM-1610)/CodeBlue/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/taycr/Documents/2019-(DGM-1610)/CodeBlue/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>C:/Users/taycr/Documents/2019-(DGM-1610)/CodeBlue/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>C:/Users/taycr/Documents/2019-(DGM-1610)/CodeBlue/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
