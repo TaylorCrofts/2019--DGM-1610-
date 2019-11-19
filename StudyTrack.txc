@@ -20,3 +20,5 @@ there's a vary real probablitiy that I wil fail this semester due to my bad choi
 I definatly Thought about coding, tomorrow will be impressive!
 Art assets(character+healthpotion sprites)
 Today I read some simple definitions on words I aught to understand but failed to put into contxt. My internet wasn't working do I'm using my phone. No scripts today.
+Character controller, rigidbody, Navmesh, Animator all compete for Transform. If you need to use more then one you will have to parent. Animator will over ride any script below it.
+Character controller or rigidbody, or navmesh need to be before the animatior or else the animator voids out the other component.
