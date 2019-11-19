@@ -194,7 +194,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 71741093}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -9.5, z: 0}
+  m_LocalPosition: {x: 8, y: -9.5, z: 0}
   m_LocalScale: {x: 3, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9574,7 +9574,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 572370530}
   m_Material: {fileID: 13400000, guid: 82320a92136f8d7458bdecc737b4df81, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -9675,14 +9675,14 @@ MonoBehaviour:
   triggerEnterEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: e7c6dcdbb80226b48b4c0214e36ce213, type: 2}
+      - m_Target: {fileID: 11400000, guid: f65ed31ae155ab9478a4ac7d0bb84c7a, type: 2}
         m_MethodName: UpdateValue
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 5
+          m_FloatArgument: -1
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -9690,7 +9690,18 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   triggerExitEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 271fcfaddbfbbc646a7e05be6704a85f, type: 2}
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &828439582
@@ -14593,7 +14604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 20
   gravity: 5
-  jumpspeed: 100
+  jumpspeed: 80
   jumpCountMax: 1
 --- !u!114 &1556223043
 MonoBehaviour:
@@ -14933,7 +14944,7 @@ MonoBehaviour:
   m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 2128203820}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1661964461
@@ -15023,7 +15034,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1982699345
 BoxCollider:
@@ -15102,15 +15113,16 @@ GameObject:
   - component: {fileID: 2128203824}
   - component: {fileID: 2128203823}
   - component: {fileID: 2128203822}
-  - component: {fileID: 2128203826}
   - component: {fileID: 2128203821}
+  - component: {fileID: 2128203827}
+  - component: {fileID: 2128203826}
   - component: {fileID: 2128203825}
   m_Layer: 0
   m_Name: AI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &2128203821
 BoxCollider:
@@ -15179,23 +15191,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!143 &2128203825
-CharacterController:
+--- !u!195 &2128203825
+NavMeshAgent:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2128203820}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 0.99999994
+  m_AgentTypeID: 0
   m_Radius: 0.49999997
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.99999994
+  m_BaseOffset: 0.49999997
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!114 &2128203826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15204,10 +15220,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 2128203820}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ec034b6cdfd7364fbba9cabd9f6f9d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 75a6ec631a57aec40938dc5735e2bba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 15
-  gravity: 10
-  jumpspeed: 12
-  jumpCountMax: 2
+  destinationObj: {fileID: 1556223050}
+--- !u!114 &2128203827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2128203820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd4f828fd5c4ebf488fec4d39cd7fbfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: {fileID: 11400000, guid: 6ddd25cd0ee49f94a9056b4a5e1dca55, type: 2}
