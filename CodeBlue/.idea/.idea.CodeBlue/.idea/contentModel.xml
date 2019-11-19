@@ -48,7 +48,10 @@
           <e p="NewBehaviourScript.cs" t="Include" />
           <e p="NoteScript.cs" t="Include" />
           <e p="ParticleSystemScript.cs" t="Include" />
+<<<<<<< Updated upstream
           <e p="UITextController.cs" t="Include" />
+=======
+>>>>>>> Stashed changes
           <e p="VarsClass.cs" t="Include" />
           <e p="WeaponData.cs" t="Include" />
         </e>
