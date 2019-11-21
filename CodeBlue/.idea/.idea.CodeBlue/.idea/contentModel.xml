@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\taycr\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\taycr\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CodeBlue.-1833413027.00" t="ExcludeRecursive" />
-    <e p="C:\Users\taycr\Documents\2019-(DGM-1610)\CodeBlue" t="IncludeRecursive">
+    <e p="C:\Users\10873957\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\10873957\.Rider2019.2\system\resharper-host\Local\Transient\ReSharperHost\v192\SolutionCaches\_CodeBlue.1156129107.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10873957\Documents\gitkraken repo\Repo-1610\2019_DGM-1610-\CodeBlue" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="CineMachineController.cs" t="Include" />
         <e p="ClothesData.cs" t="Include" />
         <e p="FloatData.cs" t="Include" />
         <e p="Functions.cs" t="Include" />
+        <e p="GameAction.cs" t="Include" />
+        <e p="GameActionHandeler.cs" t="Include" />
         <e p="HomeScripts" t="Include">
           <e p="HealthFloatScript.cs" t="Include" />
           <e p="IntMyAge.cs" t="Include" />
@@ -45,25 +47,19 @@
           <e p="Mouse2Events.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
-          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="NoteScript.cs" t="Include" />
           <e p="ParticleSystemScript.cs" t="Include" />
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
           <e p="UITextController.cs" t="Include" />
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
           <e p="VarsClass.cs" t="Include" />
           <e p="WeaponData.cs" t="Include" />
         </e>
+        <e p="StatesBehavior.cs" t="Include" />
         <e p="UIImageController.cs" t="Include" />
         <e p="Vector3Data.cs" t="Include" />
       </e>
       <e p="CodeBlue.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
-      <e p="Packages" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>

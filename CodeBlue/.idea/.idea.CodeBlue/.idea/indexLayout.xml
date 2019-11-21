@@ -5,8 +5,7 @@
       <Path>../../../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.cinemachine@2.2.10-preview.4</Path>
     </attachedFolders>
     <explicitIncludes>
-      <Path>../../../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.cinemachine@2.2.10-preview.4</Path>
-      <Path>Assets</Path>
+      <Path>../../../../../AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.cinemachine@2.2.10-preview.4</Path>
       <Path>Packages</Path>
       <Path>ProjectSettings</Path>
     </explicitIncludes>
