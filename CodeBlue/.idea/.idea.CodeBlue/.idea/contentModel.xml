@@ -49,7 +49,10 @@
           <e p="NoteScript.cs" t="Include" />
           <e p="ParticleSystemScript.cs" t="Include" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           <e p="UITextController.cs" t="Include" />
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
           <e p="VarsClass.cs" t="Include" />
