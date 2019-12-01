@@ -6,13 +6,6 @@
     <e p="C:\Users\taycr\Documents\2019-(DGM-1610)\CodeBlue" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="ButtonInput.cs" t="Include" />
-        <e p="CineMachineController.cs" t="Include" />
-        <e p="ClothesData.cs" t="Include" />
-        <e p="FloatData.cs" t="Include" />
-        <e p="Functions.cs" t="Include" />
-        <e p="GameAction.cs" t="Include" />
-        <e p="GameActionHandeler.cs" t="Include" />
         <e p="HomeScripts" t="Include">
           <e p="HealthFloatScript.cs" t="Include" />
           <e p="IntMyAge.cs" t="Include" />
@@ -20,16 +13,20 @@
           <e p="StringImpostarClass.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
         </e>
-        <e p="OnLMouseDown.cs" t="Include" />
-        <e p="PlayerData.cs" t="Include" />
+        <e p="physicsTrigger.cs" t="Include" />
         <e p="ScriptsFromClass" t="Include">
           <e p="AIScripts" t="Include">
             <e p="agenthandler.cs" t="Include" />
             <e p="AINav.cs" t="Include" />
+            <e p="Mono.cs" t="Include" />
+            <e p="Mouse2Events.cs" t="Include" />
             <e p="V3Data.cs" t="Include" />
           </e>
           <e p="ApplyForce.cs" t="Include" />
+          <e p="ButtonInput.cs" t="Include" />
           <e p="CatClass.cs" t="Include" />
+          <e p="CineMachineController.cs" t="Include" />
+          <e p="ClothesData.cs" t="Include" />
           <e p="CollisionEventScript.cs" t="Include" />
           <e p="CoroutineClass.cs" t="Include" />
           <e p="CoRoutines.cs" t="Include" />
@@ -37,27 +34,31 @@
           <e p="DebuggerHandler.cs" t="Include" />
           <e p="DogClass.cs" t="Include" />
           <e p="EnumSwitch.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
           <e p="FloatScript.cs" t="Include" />
+          <e p="Functions.cs" t="Include" />
+          <e p="GameAction.cs" t="Include" />
+          <e p="GameActionHandeler.cs" t="Include" />
           <e p="GameArtCollection.cs" t="Include" />
           <e p="GameArtData.cs" t="Include" />
           <e p="GetFruit.cs" t="Include" />
           <e p="IFstatements.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="Lists.cs" t="Include" />
-          <e p="Mono.cs" t="Include" />
-          <e p="Mouse2Events.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="NoteScript.cs" t="Include" />
+          <e p="OnLMouseDown.cs" t="Include" />
           <e p="ParticleSystemScript.cs" t="Include" />
+          <e p="PlayerData.cs" t="Include" />
+          <e p="StatesBehavior.cs" t="Include" />
+          <e p="StatesBehaviour.cs" t="Include" />
+          <e p="UIImageController.cs" t="Include" />
           <e p="UITextController.cs" t="Include" />
           <e p="VarsClass.cs" t="Include" />
+          <e p="Vector3Data.cs" t="Include" />
           <e p="WeaponData.cs" t="Include" />
         </e>
-        <e p="StatesBehavior.cs" t="Include" />
-        <e p="StatesBehaviour.cs" t="Include" />
-        <e p="UIImageController.cs" t="Include" />
-        <e p="Vector3Data.cs" t="Include" />
       </e>
       <e p="CodeBlue.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

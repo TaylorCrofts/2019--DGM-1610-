@@ -64,6 +64,7 @@
     <Compile Include="Assets\HomeScripts\PlayerParticalSystemPlayerParticleSystem.cs" />
     <Compile Include="Assets\HomeScripts\StringImpostarClass.cs" />
     <Compile Include="Assets\HomeScripts\TriggerEvents.cs" />
+    <Compile Include="Assets\physicsTrigger.cs" />
     <Compile Include="Assets\ScriptsFromClass\AIScripts\agenthandler.cs" />
     <Compile Include="Assets\ScriptsFromClass\AIScripts\AINav.cs" />
     <Compile Include="Assets\ScriptsFromClass\AIScripts\Mono.cs" />
