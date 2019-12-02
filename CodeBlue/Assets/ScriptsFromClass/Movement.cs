@@ -1,41 +1,47 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Runtime.Remoting.Channels;
+using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace ScriptsFromClass
 {
-	[RequireComponent(typeof(CharacterController))]
+	[RequireComponent(typeof(CharacterControllerScript2))]
 	public class Movement : MonoBehaviour
 	{
-		private Vector3 position;
-		private CharacterController controller;
-
+		public Vector3 position;
+		public CharacterControllerScript2 controller;
+		float isMoving=0f; 
 		public float moveSpeed = 15f;
 		public float gravity = 10f;
-		public float jumpspeed = 12f;
-		private int jumpCount;
+		public float jumpSpeed = 12f;
+		private int _jumpCount;
 		public int jumpCountMax = 2;
+		
+void Start()
+{
+	controller.Move(isMoving,false,false);
+}
+void Update()
+{
 
-		void Start()
-		{
-			controller = GetComponent<CharacterController>();
-		}
+	isMoving = Input.GetAxisRaw("Horizontal") * moveSpeed;
+}
 
-		void Update()
-		{
-			position.x = moveSpeed * Input.GetAxis("Horizontal");
+
+void FixedUpdate()
+{
+	isMoving = moveSpeed * Input.GetAxis("Horizontal");
 			position.y -= gravity;
-			if (controller.isGrounded)
+			if (controller.mGrounded)
 			{
 				position.y = 0;
-				jumpCount = 0;
+				_jumpCount = 0;
 			}
-
-			if (Input.GetButtonDown("Jump")&& jumpCount<jumpCountMax)
+			if (Input.GetButtonDown("Jump")&& _jumpCount<jumpCountMax)
 			{
-				position.y = jumpspeed;
-				jumpCount++;
+				position.y = jumpSpeed;
+			_jumpCount++;
 			}
-
-			controller.Move(position * Time.deltaTime);
 		}
 	}
 }
