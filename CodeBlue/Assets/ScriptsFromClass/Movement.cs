@@ -1,40 +1,40 @@
-﻿using System;
-using System.Runtime.Remoting.Channels;
-using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.Serialization;
-
+﻿using UnityEngine;
 namespace ScriptsFromClass
 {
 	[RequireComponent(typeof(CharacterControllerScript2))]
 	public class Movement : MonoBehaviour
 	{
-		public Vector3 position;
+		private Vector3 _position;
 		public CharacterControllerScript2 controller;
-		float isMoving = 0f;
+		private float _isMoving;
 		public float moveSpeed = 15f;
 		public float gravity = 10f;
 		public float jumpSpeed = 12f;
 		private int _jumpCount;
 		public int jumpCountMax = 2;
-		private bool _jump = false;
-		private bool _crouch = false;
+		private bool _jump;
+		private bool _crouch;
 
 		private void Start()
 		{
-			controller.Move(isMoving * Time.fixedDeltaTime, _crouch, _jump);
+			controller.Move(_isMoving * Time.fixedDeltaTime, _crouch, _jump);
 		}
 
 		void Update()
 		{
 
-			isMoving = Input.GetAxisRaw("Horizontal") * moveSpeed;
+			_isMoving = Input.GetAxisRaw("Horizontal") * moveSpeed;
 		}
 
 		void FixedUpdate()
 		{
-			if (Input.GetButtonDown("Jump"))
+			if (Input.GetButtonDown("Jump") && _jumpCount < jumpCountMax)
 			{
+            				_position.y = jumpSpeed;
+            				_jumpCount++;
+			}
+			{
+				
 				_jump = true;
 			}
 
@@ -43,22 +43,15 @@ namespace ScriptsFromClass
 				_crouch = true;
 			}else if (Input.GetButtonUp("Crouch"))
 				_crouch = false;
-			{
-				
-			}
+			
 
-			position.y -= gravity;
+			_position.y -= gravity;
 			if (controller.mGrounded)
 			{
-				position.y = 0;
+				_position.y = 0;
 				_jumpCount = 0;
 			}
-
-			if (Input.GetButtonDown("Jump") && _jumpCount < jumpCountMax)
-			{
-				position.y = jumpSpeed;
-				_jumpCount++;
-			}
+			
 		}
 	}
 }
