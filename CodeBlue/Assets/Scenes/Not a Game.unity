@@ -647,10 +647,11 @@ GameObject:
   m_Component:
   - component: {fileID: 576007029}
   - component: {fileID: 576007026}
-  - component: {fileID: 576007031}
-  - component: {fileID: 576007030}
   - component: {fileID: 576007028}
+  - component: {fileID: 576007032}
+  - component: {fileID: 576007031}
   - component: {fileID: 576007027}
+  - component: {fileID: 576007030}
   m_Layer: 8
   m_Name: Average joe
   m_TagString: Untagged
@@ -709,7 +710,7 @@ CapsuleCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 576007025}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f3fc2be6f69df4244ad2bade29465774, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.08
@@ -758,23 +759,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 745dc2ed9e439054da8d465a742d1559, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 700
-  m_CrouchSpeed: 0.4
-  m_MovementSmoothing: 0.3
-  m_AirControl: 0
-  m_WhatIsGround:
+  mCrouchSpeed: 0.36
+  mMovementSmoothing: 0.05
+  mAirControl: 0
+  mWhatIsGround:
     serializedVersion: 2
-    m_Bits: 4294967023
-  m_GroundCheck: {fileID: 2071638753}
-  m_CeilingCheck: {fileID: 571776015}
-  m_CrouchDisableCollider: {fileID: 0}
-  m_Grounded: 0
-  OnLandEvent:
+    m_Bits: 0
+  mGroundCheck: {fileID: 0}
+  mCeilingCheck: {fileID: 0}
+  mCrouchDisableCollider: {fileID: 0}
+  mGrounded: 0
+  onLandEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  OnCrouchEvent:
+  onCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: CharacterControllerScript2+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
@@ -787,12 +787,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 576007025}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745dc2ed9e439054da8d465a742d1559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mCrouchSpeed: 0.36
+  mMovementSmoothing: 0.05
+  mAirControl: 1
+  mWhatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  mGroundCheck: {fileID: 2071638753}
+  mCeilingCheck: {fileID: 571776015}
+  mCrouchDisableCollider: {fileID: 0}
+  mGrounded: 1
+  onLandEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onCrouchEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: CharacterControllerScript2+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &576007032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 576007025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ec034b6cdfd7364fbba9cabd9f6f9d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
+  controller: {fileID: 576007031}
   moveSpeed: 15
   gravity: 10
-  jumpspeed: 12
+  jumpSpeed: 12
   jumpCountMax: 2
 --- !u!1 &705067243
 GameObject:
