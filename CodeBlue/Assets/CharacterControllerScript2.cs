@@ -6,17 +6,16 @@ public class CharacterControllerScript2 : MonoBehaviour
 	[SerializeField] private float mJumpForce = 400f;							// Amount of force added when the player jumps.
 	[Range(0, 1)] [SerializeField] private float mCrouchSpeed = .36f;			// Amount of maxSpeed applied to crouching movement. 1 = 100%
 	[Range(0, .3f)] [SerializeField] private float mMovementSmoothing = .05f;	// How much to smooth out the movement
-	[SerializeField] private bool mAirControl;							// Whether or not a player can steer while jumping;
+	[SerializeField] private bool mAirControl;									// Whether or not a player can steer while jumping;
 	[SerializeField] private LayerMask mWhatIsGround;							// A mask determining what is ground to the character
 	[SerializeField] private Transform mGroundCheck;							// A position marking where to check if the player is grounded.
 	[SerializeField] private Transform mCeilingCheck;							// A position marking where to check for ceilings
-	[SerializeField] private Collider mCrouchDisableCollider;				// A collider that will be disabled when crouching
-	private Vector3 position;
-	const float KGroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
-	public bool mGrounded;            // Whether or not the player is grounded.
-	const float KCeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
+	[SerializeField] private Collider mCrouchDisableCollider;					// A collider that will be disabled when crouching
+	const float KGroundedRadius = .2f; 										// Radius of the overlap circle to determine if grounded
+	public bool mGrounded;            											// Whether or not the player is grounded.
+	const float KCeilingRadius = .2f; 											// Radius of the overlap circle to determine if the player can stand up
 	private Rigidbody _mRigidbody;
-	private bool _mFacingRight = true;  // For determining which way the player is currently facing.
+	private bool _mFacingRight = true;  										// For determining which way the player is currently facing.
 	private Vector3 _mVelocity = Vector3.zero;
 
 	[Header("Events")]
@@ -45,7 +44,6 @@ public class CharacterControllerScript2 : MonoBehaviour
 	private void FixedUpdate()
 	{
 		bool wasGrounded = mGrounded;
-		mGrounded = false;
 
 		// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
 		// This can be done using layers instead but Sample Assets will not overwrite your project settings.
@@ -54,12 +52,11 @@ public class CharacterControllerScript2 : MonoBehaviour
 		//{
 			//if (GetComponent<Collider>().gameObject != gameObject)
 			//{
-				//mGrounded = true;
-				//if (!wasGrounded)
-			//	//	onLandEvent.Invoke();
-			//}
-		//}
+				mGrounded = true;
+				if (!wasGrounded) 
+					onLandEvent.Invoke(); 
 	}
+
 
 
 	public void Move(float move, bool crouch, bool jump)

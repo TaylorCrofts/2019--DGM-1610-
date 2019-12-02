@@ -632,7 +632,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 571776014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.158, z: 0}
+  m_LocalPosition: {x: 0, y: 0.124, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 576007029}
@@ -755,7 +755,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 576007025}
   m_Material: {fileID: 13400000, guid: f3fc2be6f69df4244ad2bade29465774, type: 2}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.08
@@ -771,15 +771,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 745dc2ed9e439054da8d465a742d1559, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mJumpForce: 400
   mCrouchSpeed: 0.36
   mMovementSmoothing: 0.05
   mAirControl: 1
   mWhatIsGround:
     serializedVersion: 2
     m_Bits: 4294967023
-  mGroundCheck: {fileID: 2071638753}
+  mGroundCheck: {fileID: 0}
   mCeilingCheck: {fileID: 571776015}
-  mCrouchDisableCollider: {fileID: 0}
+  mCrouchDisableCollider: {fileID: 576007027}
   mGrounded: 1
   onLandEvent:
     m_PersistentCalls:

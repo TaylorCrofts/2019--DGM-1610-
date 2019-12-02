@@ -32,10 +32,8 @@ namespace ScriptsFromClass
 			{
             				_position.y = jumpSpeed;
             				_jumpCount++;
-			}
-			{
-				
-				_jump = true;
+                            _jump = true;
+                            controller.mGrounded = false;
 			}
 
 			if (Input.GetButtonDown("Crouch"))
