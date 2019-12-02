@@ -1,57 +1,40 @@
 ﻿using UnityEngine;
-namespace ScriptsFromClass
+
+[RequireComponent(typeof(CharacterController))]
+public class Movement : MonoBehaviour
 {
-	[RequireComponent(typeof(CharacterControllerScript2))]
-	public class Movement : MonoBehaviour
-	{
-		private Vector3 _position;
-		public CharacterControllerScript2 controller;
-		private float _isMoving;
-		public float moveSpeed = 15f;
-		public float gravity = 10f;
-		public float jumpSpeed = 12f;
-		private int _jumpCount;
-		public int jumpCountMax = 2;
-		private bool _jump;
-		private bool _crouch;
+    private Vector3 position;
+    private CharacterController controller;
+    
+    public float moveSpeed = 10f,  gravity = 9.81f, jumpSpeed = 30f;
+    private int jumpCount;
+    public int jumpCountMax = 2;
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        controller = GetComponent<CharacterController>();
+    }
 
-		private void Start()
-		{
-			controller.Move(_isMoving * Time.fixedDeltaTime, _crouch, _jump);
-		}
+    // Update is called once per frame
+    void Update()
+    {
+        position.x = moveSpeed*Input.GetAxis("Horizontal");
+        position.z = moveSpeed*Input.GetAxis("Vertical");
+        position.y -= gravity;
 
-		void Update()
-		{
-
-			_isMoving = Input.GetAxisRaw("Horizontal") * moveSpeed;
-		}
-
-		void FixedUpdate()
-		{
-			if (Input.GetButtonDown("Jump") && _jumpCount < jumpCountMax)
-			{
-            				_position.y = jumpSpeed;
-            				_jumpCount++;
-                            _jump = true;
-                            controller.mGrounded = false;
-			}
-
-			if (Input.GetButtonDown("Crouch"))
-			{
-				_crouch = true;
-			}else if (Input.GetButtonUp("Crouch"))
-				_crouch = false;
-			
-
-			_position.y -= gravity;
-			if (controller.mGrounded)
-			{
-				_position.y = 0;
-				_jumpCount = 0;
-			}
-			
-		}
-	}
+        if (controller.isGrounded)
+        {
+            position.y = 0;
+            jumpCount = 0;
+        }
+        
+        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+        {
+            position.y = jumpSpeed;
+            jumpCount++;
+        }
+        
+        controller.Move(position*Time.deltaTime);
+    }
 }
-
-	

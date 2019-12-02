@@ -122,7 +122,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4992118816483116, guid: 6a63c708e83b2b74aa4177f6707ca123, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.258
       objectReference: {fileID: 0}
     - target: {fileID: 4992118816483116, guid: 6a63c708e83b2b74aa4177f6707ca123, type: 2}
       propertyPath: m_LocalPosition.y
@@ -171,6 +171,10 @@ Prefab:
     - target: {fileID: 4992118816483116, guid: 6a63c708e83b2b74aa4177f6707ca123, type: 2}
       propertyPath: m_LocalScale.z
       value: 8.095315
+      objectReference: {fileID: 0}
+    - target: {fileID: 4992118816483116, guid: 6a63c708e83b2b74aa4177f6707ca123, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 17.717838
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6a63c708e83b2b74aa4177f6707ca123, type: 2}
@@ -226,10 +230,10 @@ GameObject:
   - component: {fileID: 336137656}
   - component: {fileID: 336137655}
   - component: {fileID: 336137660}
-  - component: {fileID: 336137659}
   - component: {fileID: 336137658}
-  - component: {fileID: 336137657}
+  - component: {fileID: 336137659}
   - component: {fileID: 336137661}
+  - component: {fileID: 336137657}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -296,21 +300,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &336137657
-Rigidbody:
+--- !u!114 &336137657
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 336137654}
-  serializedVersion: 2
-  m_Mass: 2
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745dc2ed9e439054da8d465a742d1559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mJumpForce: 400
+  mCrouchSpeed: 0.36
+  mMovementSmoothing: 0.05
+  mAirControl: 0
+  mWhatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  mGroundCheck: {fileID: 0}
+  mCeilingCheck: {fileID: 0}
+  mCrouchDisableCollider: {fileID: 0}
+  mGrounded: 0
+  onLandEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onCrouchEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Modified_or_Wip_scripts.MCharacterControllerScript2+BoolEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &336137658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,13 +340,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 336137654}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ec034b6cdfd7364fbba9cabd9f6f9d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 745dc2ed9e439054da8d465a742d1559, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 15
-  gravity: 4
-  jumpspeed: 60
-  jumpCountMax: 2
+  mJumpForce: 400
+  mCrouchSpeed: 0.36
+  mMovementSmoothing: 0.05
+  mAirControl: 0
+  mWhatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  mGroundCheck: {fileID: 0}
+  mCeilingCheck: {fileID: 0}
+  mCrouchDisableCollider: {fileID: 0}
+  mGrounded: 0
+  onLandEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onCrouchEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Modified_or_Wip_scripts.MCharacterControllerScript2+BoolEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!143 &336137659
 CharacterController:
   m_ObjectHideFlags: 0
@@ -336,25 +374,27 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 0.4
-  m_Radius: 0.2
+  m_Height: 0.31
+  m_Radius: 0.08
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!135 &336137660
-SphereCollider:
+--- !u!114 &336137660
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 336137654}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.1
-  m_Center: {x: 0.01, y: 0.02, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ec034b6cdfd7364fbba9cabd9f6f9d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 336137658}
+  moveSpeed: 15
+  jumpCountMax: 3
 --- !u!114 &336137661
 MonoBehaviour:
   m_ObjectHideFlags: 0

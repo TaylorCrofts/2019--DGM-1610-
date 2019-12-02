@@ -26,11 +26,13 @@ namespace ScriptsFromClass
 			if (a+b==c)
 			{
 				print("True.");
+				lightsOn = true;
 			}
 
-			if (password != "OU812") ; 
+			if (password != "Friends") ; 
 			{
-				print("access");
+				print("no access");
+				lightsOn = false;
 			}
 			print(!lightsOn ? "True!" : "false");
 		}
