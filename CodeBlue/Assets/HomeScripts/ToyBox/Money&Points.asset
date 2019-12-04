@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cabe6f404ab3e746994e1a02b964576, type: 3}
   m_Name: Money&Points
   m_EditorClassIdentifier: 
-  value: 1
+  value: 7
