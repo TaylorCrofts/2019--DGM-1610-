@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HomeScripts\Scripts\CammeraFollow.cs" />
     <Compile Include="Assets\HomeScripts\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\HomeScripts\Scripts\HealthFloatScript.cs" />
     <Compile Include="Assets\HomeScripts\Scripts\IntMyAge.cs" />

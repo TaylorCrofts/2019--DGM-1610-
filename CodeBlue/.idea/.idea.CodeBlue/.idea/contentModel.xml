@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="HomeScripts" t="Include">
           <e p="Scripts" t="Include">
+            <e p="CammeraFollow.cs" t="Include" />
             <e p="CharacterController2D.cs" t="Include" />
             <e p="HealthFloatScript.cs" t="Include" />
             <e p="IntMyAge.cs" t="Include" />
