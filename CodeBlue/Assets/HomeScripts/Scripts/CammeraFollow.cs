@@ -5,7 +5,7 @@ public class CammeraFollow : MonoBehaviour
 {
 	public Transform playerObj;
 	public Vector3 offSet;
-	private void FixedUpdate()
+	private void Update()
 	{
 		transform.position = playerObj.position + offSet;
 	}
