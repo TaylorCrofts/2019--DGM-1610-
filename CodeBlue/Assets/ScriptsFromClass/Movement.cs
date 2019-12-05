@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 public class Movement : MonoBehaviour
 {
     private Vector3 position;
     private CharacterController controller;
-    
+    public bool povChanged;
     public float moveSpeed = 10f,  gravity = 9.81f, jumpSpeed = 30f;
     private int jumpCount;
     public int jumpCountMax = 2;
@@ -15,14 +16,16 @@ public class Movement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
     }
+    
 
     // Update is called once per frame
     void Update()
     {
         position.x = moveSpeed*Input.GetAxis("Horizontal");
-        position.z = moveSpeed*Input.GetAxis("Vertical");
         position.y -= gravity;
-
+        //position.x = moveSpeed * Input.GetAxis("Vertical");
+        
+        
         if (controller.isGrounded)
         {
             position.y = 0;
