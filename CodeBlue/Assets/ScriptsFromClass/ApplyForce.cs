@@ -1,23 +1,22 @@
-﻿using UnityEngine;
+﻿  
+using UnityEngine;
 
-namespace ScriptsFromClass
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Collider))]
+public class ApplyForce : MonoBehaviour
 {
-	[RequireComponent(typeof(Rigidbody))]
-	[RequireComponent(typeof(Collider))]
-	public class ApplyForce : MonoBehaviour
-	{
-		private Rigidbody rb;
-		public Vector3 forces;
-
-
-		void Start ()
-		{
-			rb = GetComponent<Rigidbody>();
-		}
-
-		private void OnCollisionEnter(Collision other)
-		{
-			rb.AddForce(forces);
-		}
-	}
+    private Rigidbody rb;
+    public Vector3Data forceDirection;
+    public float force = 3f;
+    
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+        rb.AddForce(forceDirection.value*force); 
+    }
+    
+    private void OnCollisionEnter(Collision other)
+    {
+           
+    }
 }
