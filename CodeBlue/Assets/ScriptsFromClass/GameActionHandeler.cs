@@ -3,17 +3,17 @@ using UnityEngine.Events;
 
 public class GameActionHandeler : MonoBehaviour
 {
-	public GameAction gameActionObjectOBJ;
+	public GameAction gameActionOBJ;
 	public UnityEvent handlerEvent;
 
 	void Start ()
 	{
-	//	gameActionObjectOBJ=RaiseHandler;
+		gameActionOBJ.action=RaiseHandler;
 	}
 	
-	// void GameAction void RaiseHandler()
-	//{
-		//handlerEvent.Invoke();
-	//}
+	void RaiseHandler()
+	{
+		handlerEvent.Invoke();
+	}
 
 }
