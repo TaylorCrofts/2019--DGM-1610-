@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace ScriptsFromClass
@@ -9,6 +10,11 @@ namespace ScriptsFromClass
         public void OnTriggerEnter(Collider other)
         {
             print("Bam!");
+        }
+
+        public void OnTriggerExit(Collider other)
+        {
+            
         }
     }
 }
