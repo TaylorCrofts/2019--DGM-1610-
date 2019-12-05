@@ -76,7 +76,6 @@
     <Compile Include="Assets\ScriptsFromClass\AIScripts\Mouse2Events.cs" />
     <Compile Include="Assets\ScriptsFromClass\AIScripts\V3Data.cs" />
     <Compile Include="Assets\ScriptsFromClass\ApplyForce.cs" />
-    <Compile Include="Assets\ScriptsFromClass\Applyforce1.cs" />
     <Compile Include="Assets\ScriptsFromClass\ButtonInput.cs" />
     <Compile Include="Assets\ScriptsFromClass\CatClass.cs" />
     <Compile Include="Assets\ScriptsFromClass\CineMachineController.cs" />
