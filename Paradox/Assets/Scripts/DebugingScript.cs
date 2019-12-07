@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿  
+using UnityEngine;
 [CreateAssetMenu]
-public class DebuggingScript : ScriptableObject
+public class Debugger : ScriptableObject
 {
     public void OnDebug(string words)
     {

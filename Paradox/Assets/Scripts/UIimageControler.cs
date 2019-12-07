@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
-public class UIImageControler : MonoBehaviour
+public class UiImageControler : MonoBehaviour
 {
 	private Image _image;
 	void Awake()
