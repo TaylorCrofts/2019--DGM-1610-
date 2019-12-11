@@ -60,7 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\HomeScripts\Scripts\CammeraFollow.cs" />
-    <Compile Include="Assets\HomeScripts\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\HomeScripts\Scripts\HealthFloatScript.cs" />
     <Compile Include="Assets\HomeScripts\Scripts\IntMyAge.cs" />
     <Compile Include="Assets\HomeScripts\Scripts\Movement2D.cs" />
@@ -79,7 +78,6 @@
     <Compile Include="Assets\ScriptsFromClass\ButtonInput.cs" />
     <Compile Include="Assets\ScriptsFromClass\CatClass.cs" />
     <Compile Include="Assets\ScriptsFromClass\CineMachineController.cs" />
-    <Compile Include="Assets\ScriptsFromClass\ClothesData.cs" />
     <Compile Include="Assets\ScriptsFromClass\CollisionEventScript.cs" />
     <Compile Include="Assets\ScriptsFromClass\CoroutineClass.cs" />
     <Compile Include="Assets\ScriptsFromClass\CoRoutines.cs" />

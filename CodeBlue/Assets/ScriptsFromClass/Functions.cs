@@ -3,13 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
-//(=) means assign too
-//These functions give you back stuff
-//use them when you know you want the same option to be repeated several times.
-//Unity Events must have a return type of void. 
-//(instansiate) means to create.
-//build stuff and turn it into a prefab
-//If were declaring a float we must return a float ect...
+
 public class Functions : MonoBehaviour
 {
 	public Color playercolor= Color.red;
@@ -47,8 +41,6 @@ public class Functions : MonoBehaviour
 
 	private string WelcomePlayer()
 	{
-		//add player to database
-		//give player weapon
 		print(WelcomePlayer());
 		return playerName + "welcome to the game!";
 	}

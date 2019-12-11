@@ -28,7 +28,3 @@ namespace ScriptsFromClass
         }
     }
 }
-
-
-//Use to delay things like an Event
-//Use to count things like (loading, starting(race start count down)

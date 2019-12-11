@@ -2,13 +2,13 @@
 
 public class Instancer : MonoBehaviour
 {
-    
-}
-//public ApplyForce ammo;
+    public ApplyForce ammo;
 
-    // Update is called once per frame
-  //  public void Fire()
-  //  {
-   //         Instantiate(ammo,transform.position, Quaternion.identity);
-  //  }
-//}
+
+    public void Fire()
+   {
+
+       Instantiate(ammo,transform.position, Quaternion.identity);
+
+   }
+}

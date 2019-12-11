@@ -2,7 +2,6 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-//CoRoutines Are used to delay, repeate and stop things.
 namespace ScriptsFromClass
 {
     public class CoRoutines : MonoBehaviour
@@ -11,7 +10,7 @@ namespace ScriptsFromClass
         private WaitForSeconds wfsObj;
         public int counter = 10;
         public float seconds = 10f;
-        public bool canRun; //Does the same as counter but infinitely repeats
+        public bool canRun;
     
 
         private void Awake()
@@ -39,58 +38,8 @@ namespace ScriptsFromClass
             yield return wfsObj;
             Debug.Log("Go!");
         }
-    
-    
-    
     }
 }
 
-//________________________eh code________________
-   // private int i = 3;
-
-    //IEnumerator Start()
-    //{
-        //while (i > 0)
-        //{
-          //  yield return new WaitForSeconds(1f);
-            //Debug.Log(i);
-            //i--;
-        //}
-
-        //yield return new WaitForSeconds(1f);
-        //Debug.Log("Go!");
-   // }
-
-
-
-
-
-
-
-//__________________BdCode__________
-    //IEnumerator Start()
-    //{
-    // yield return new WaitForSeconds(1f);
-    //Debug.Log(3);
-    //yield return new WaitForSeconds(1f);
-    //Debug.Log(2);
-    //yield return new WaitForSeconds(1f);
-    //Debug.Log(1);
-    //yield return new WaitForSeconds(1f);
-    //Debug.Log("Go!");
-    //}
-    //private void Start()
-    //{
-    // Invoke(nameof("StartLater"), time:3f);
-// }
-
-// void Counter(int number)
-// {
-    //    Debug.log("run")
-// }
-// void StartLater()
-// {
-    // Debug.Log("Ran");
-// }
 
 

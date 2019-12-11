@@ -11,19 +11,19 @@ public class Movement : MonoBehaviour
     private int jumpCount;
     public int jumpCountMax = 2;
     
-    // Start is called before the first frame update
+   
     void Start()
     {
         controller = GetComponent<CharacterController>();
     }
     
 
-    // Update is called once per frame
+   
     void Update()
     {
         position.x = moveSpeed*Input.GetAxis("Horizontal");
         position.y -= gravity;
-        //position.x = moveSpeed * Input.GetAxis("Vertical");
+       
         
         
         if (controller.isGrounded)

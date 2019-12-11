@@ -1,20 +1,20 @@
 ﻿using UnityEngine;
-//using Cinemachine;
+using Cinemachine;
 
-//[RequireComponent(typeof(CinemachineVirtualCamera))]
+[RequireComponent(typeof(CinemachineVirtualCamera))]
 public class CineMachineController : MonoBehaviour
 {
     public PlayerData playerData;
-   // private CinemachineVirtualCamera virtualCamera;
+    private CinemachineVirtualCamera virtualCamera;
     void Awake()
     {
-   //     virtualCamera = GetComponent<CinemachineVirtualCamera>();
+        virtualCamera = GetComponent<CinemachineVirtualCamera>();
         playerData.instanceAction = InstanceHandler;
         playerData.InstancePlayer();
     }
 
     private void InstanceHandler(GameObject obj)
     {
-  //      virtualCamera.Follow = obj.transform;
+      virtualCamera.Follow = obj.transform;
     }
 }
